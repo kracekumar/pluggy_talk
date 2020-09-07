@@ -35,9 +35,10 @@ $python host.py search -t "My freedom and My bondage" --indent 8
 ``` bash
 $pytest -vv tests.py
 ...
-collected 1 item
+collected 2 items
 
 tests.py::test_search PASSED
+tests.py::test_print_output PASSED
 ```
 
 Slides: https://slides.com/kracekumarramaraju/pluggy
