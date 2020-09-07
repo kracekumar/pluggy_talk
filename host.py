@@ -36,6 +36,7 @@ def cli():
 @cli.command()
 @click.option("--title", "-t", type=str, help="Title to search")
 @click.option("--author", "-a", type=str, help="Author to search")
+@click.option("--format", "-f", type=str, help="Output format", default='json')
 def search(title, author, **kwargs):
     if not (title or author):
         print("Pass either --title or --author")

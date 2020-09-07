@@ -53,8 +53,9 @@ def print_output(resp, kwargs):
     ]
     indent = kwargs.get("indent", 4)
     #print(f"Using the indent size as {indent}")
-    formatted_json = json.dumps(table, sort_keys=True, indent=indent)
-    if kwargs.get('colorize'):
-        print(colorize(formatted_json))
-    else:
-        print(formatted_json)
+    if kwargs.get('format', '') == 'json':
+        formatted_json = json.dumps(table, sort_keys=True, indent=indent)
+        if kwargs.get('colorize'):
+            print(colorize(formatted_json))
+        else:
+            print(formatted_json)
