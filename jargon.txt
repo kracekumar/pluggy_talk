@@ -1,0 +1,10 @@
+- Extensible: A code that can be easily modified and changed to accomodate
+new changes without significant effort and time.
+- Plugin: A program which changes the behavior of the program at run-time.
+- Hook: A callback or entrypoint to perform a task at a particular place in the code.
+- Host: A program which performs the expected task.
+- Hook Specification: A functionality blue-print.
+- Hook Implementation: A functinoality implementation.
+- Plugin Manager: An instance to  manage all the hooks in a project.
+- Unit test: A test to validate a particlar implementation detail.
+- Integration test: A test to validate a one or more interacting parts.

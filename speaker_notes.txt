@@ -1,0 +1,115 @@
+slide 0
+--
+- Welcome to the talk, Build Plugins with Pluggy.
+
+slide 1
+--
+- Introduce about myself
+
+slide 2
+--
+- Give a high level overview about the talk structure
+and what each section covers
+
+slide 3
+--
+
+slide 4
+--
+- Explain what is the common use case for code
+with and without plugins.
+- Explain the code in the screen.
+
+slide 5
+--
+- Explain the short comings of the code
+- The short comings become the reason for build plugins
+
+slide 6
+--
+
+slide 7
+--
+- Explain what is plugin with example?
+
+slide 8
+--
+- Explain what's pluggy?
+
+slide 9
+--
+
+slide 10
+--
+- Explain sample code directory structure.
+
+slide 11
+--
+- Explain Terminology one by one
+
+slide 12
+--
+- Explain host.py at a high-level
+
+slide 13
+--
+
+slide 14
+--
+- Explain hookspec
+
+slide 15
+--
+- Explain hookimplementation
+
+slide 16
+--
+- Explain Plugin Manager
+
+slide 17
+--
+- Explain how to invoke the hook
+
+slide 18
+--
+
+slide 19
+--
+- Explain the two invocation outputs
+
+slide 20
+--
+- Visual representation of Plugin working
+
+slide 21
+--
+
+slide 22
+--
+
+slide 23
+--
+- Explain three points about hook calls work
+
+slide 24
+--
+
+slide 25
+--
+- Explain unit testing the hook
+
+slide 26
+--
+- Explain the integration testing
+
+slide 27
+--
+- Explain the real word projects
+
+slide 28
+--
+- Links to the sample code
+
+slide 29
+--
+- Thank you
